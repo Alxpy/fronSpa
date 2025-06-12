@@ -137,10 +137,6 @@ export default function ProductsPage() {
                   <Badge variant="secondary" className="bg-blue-100 text-blue-800 text-xs">
                     {product.category}
                   </Badge>
-                  <div className="flex items-center gap-1">
-                    {/* {renderStars(product.rating)} */}
-                    {/* <span className="text-sm text-gray-500 ml-1">({product.reviews})</span> */}
-                  </div>
                 </div>
 
                 <CardTitle className="text-lg text-blue-900 line-clamp-2 group-hover:text-blue-700 transition-colors">
